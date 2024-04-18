@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curriculum Vitae</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+
+</head>
+<body>
+    <main class="container_page">
+        <nav class="nav">
+            <div class="logo titulo_div">&lt Portafolio /&gt</div>
+            <ul class="options_nav">
+                <li><span class="text_button">About me</span></li>
+                <li><span class="text_button">Proyects</span></li>
+                <li><span class="text_button">Skills</span></li>
+            </ul>
+        </nav>
+        <header class="header">
+            <div class="container_img_perfil">
+                <img src="img/me/me__like.png" alt="me_perfil" class="img_perfil">
+            </div>
+            <section class="info_header">
+                <header class="text_header">
+                Hola! soy <span class="target">Desarrollador Web</span>.
+                Hago lo que me apasiona, por eso soy <span class="target">Programador</span>
+                </header>
+                <article class="container_options_header">
+                    <button class="download btn_green">Download CV</button>
+                    <ul class="list_contact">
+                        <li class="box-contact"><i class="bi bi-linkedin"></i> Linkedin</li>
+                        <li class="box-contact"><i class="bi bi-github"></i> GitHub</li>
+                    </ul>
+                </article>
+            </section>
+        </header>
+        <section class="container_correo">
+            <article class="input_container_correo">
+                <label class="label_correo btn_green" for="input_round_correo">@Correo</label>
+                <input type="text" class="input_round_correo" name="input_round_correo" id="correo-input" readonly value="misaelam.web@gmail.com" />
+                <!-- <button class="btn_send btn_contact">Send</button> -->
+                <button class="btn_copy btn_green" id="btn-copy">Copy</button>
+            </article>
+        </section>
+        <article class="article-container">
+            <section class="section-experience">
+                <header>
+                    <div class="title-header box-contact">&lt Proyects / &gt</Experience></div>
+                </header>
+                <main>
+                    <article class="proyects">
+                        <section class="proyect">
+                            <header class="header-proyect">App de Dibujo</header>
+                            <main class="main-proyect">
+                                <img class="img-proyect" src="img/proyects/app_dibujo.jpg" alt="" class="img-proyect">
+                                <div class="btn-view-proyect"></div>
+                            </main>
+                        </section>
+
+                        <section class="proyect">
+                            <header class="header-proyect">Aplicacion Pronostio Api</header>
+                            <main class="main-proyect">
+                                <img class="img-proyect" src="img/proyects/weather-api.jpg" alt="" class="img-proyect">
+                                <div class="btn-view-proyect"></div>
+                            </main>
+                        </section>
+                    </article>
+                </main>
+            </section>
+
+        </article>
+    </main>
+    <div id="particles-js"></div>
+
+    <script src="particles.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/MisDW/testCDN/textCdn.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
